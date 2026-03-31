@@ -64,6 +64,7 @@ An episode is truncated when:
 ## Usage
 
 ```python
+import numpy as np
 from mycheckersenv import env
 
 environment = env(render_mode="human")
@@ -76,7 +77,8 @@ for agent in environment.agent_iter():
         action = None
     else:
         mask = info["action_mask"]
-        action = environment.action_space(agent).sample(mask)
+        legal_actions = np.where(mask)[0]
+        action = int(np.random.choice(legal_actions))
 
     environment.step(action)
 environment.close()
