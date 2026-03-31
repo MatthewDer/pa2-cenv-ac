@@ -1,0 +1,351 @@
+Starting self-play training for 5000 episodes...
+
+Episode   100 | p0 wins:   37  p1 wins:   53  draws:   10 | actor_loss: -0.0242  critic_loss: 0.0315  entropy: 0.9592  mean_return: 0.0258
+Episode   200 | p0 wins:   84  p1 wins:  100  draws:   16 | actor_loss: -0.0252  critic_loss: 0.0317  entropy: 0.9382  mean_return: 0.0278
+Episode   300 | p0 wins:  123  p1 wins:  146  draws:   31 | actor_loss: -0.0207  critic_loss: 0.0301  entropy: 0.9304  mean_return: 0.0275
+Episode   400 | p0 wins:  166  p1 wins:  194  draws:   40 | actor_loss: -0.0233  critic_loss: 0.0309  entropy: 0.9287  mean_return: 0.0293
+Episode   500 | p0 wins:  210  p1 wins:  234  draws:   56 | actor_loss: -0.0244  critic_loss: 0.0282  entropy: 0.9343  mean_return: 0.0271
+Saved checkpoint → checkers_agent.pt
+Episode   600 | p0 wins:  251  p1 wins:  280  draws:   69 | actor_loss: -0.0249  critic_loss: 0.0288  entropy: 0.9503  mean_return: 0.0277
+Episode   700 | p0 wins:  301  p1 wins:  318  draws:   81 | actor_loss: -0.0276  critic_loss: 0.0282  entropy: 0.9375  mean_return: 0.0283
+Episode   800 | p0 wins:  333  p1 wins:  371  draws:   96 | actor_loss: -0.0238  critic_loss: 0.0274  entropy: 0.9411  mean_return: 0.0278
+Episode   900 | p0 wins:  373  p1 wins:  420  draws:  107 | actor_loss: -0.0287  critic_loss: 0.0262  entropy: 0.9555  mean_return: 0.0262
+Episode  1000 | p0 wins:  407  p1 wins:  469  draws:  124 | actor_loss: -0.0231  critic_loss: 0.0253  entropy: 0.9505  mean_return: 0.0245
+Saved checkpoint → checkers_agent.pt
+Episode  1100 | p0 wins:  445  p1 wins:  514  draws:  141 | actor_loss: -0.0244  critic_loss: 0.0251  entropy: 0.9621  mean_return: 0.0252
+Episode  1200 | p0 wins:  488  p1 wins:  562  draws:  150 | actor_loss: -0.0252  critic_loss: 0.0258  entropy: 0.9403  mean_return: 0.0269
+Episode  1300 | p0 wins:  538  p1 wins:  603  draws:  159 | actor_loss: -0.0246  critic_loss: 0.0249  entropy: 0.9358  mean_return: 0.0267
+Episode  1400 | p0 wins:  582  p1 wins:  651  draws:  167 | actor_loss: -0.0246  critic_loss: 0.0255  entropy: 0.9474  mean_return: 0.0276
+Episode  1500 | p0 wins:  629  p1 wins:  688  draws:  183 | actor_loss: -0.0231  critic_loss: 0.0263  entropy: 0.9286  mean_return: 0.0281
+Saved checkpoint → checkers_agent.pt
+Episode  1600 | p0 wins:  674  p1 wins:  734  draws:  192 | actor_loss: -0.0247  critic_loss: 0.0246  entropy: 0.9421  mean_return: 0.0271
+Episode  1700 | p0 wins:  723  p1 wins:  773  draws:  204 | actor_loss: -0.0230  critic_loss: 0.0246  entropy: 0.9451  mean_return: 0.0285
+Episode  1800 | p0 wins:  756  p1 wins:  828  draws:  216 | actor_loss: -0.0237  critic_loss: 0.0245  entropy: 0.9489  mean_return: 0.0261
+Episode  1900 | p0 wins:  791  p1 wins:  884  draws:  225 | actor_loss: -0.0212  critic_loss: 0.0243  entropy: 0.9446  mean_return: 0.0297
+Episode  2000 | p0 wins:  830  p1 wins:  924  draws:  246 | actor_loss: -0.0207  critic_loss: 0.0223  entropy: 0.9575  mean_return: 0.0239
+Saved checkpoint → checkers_agent.pt
+Episode  2100 | p0 wins:  863  p1 wins:  978  draws:  259 | actor_loss: -0.0165  critic_loss: 0.0218  entropy: 0.9406  mean_return: 0.0268
+Episode  2200 | p0 wins:  906  p1 wins: 1022  draws:  272 | actor_loss: -0.0233  critic_loss: 0.0232  entropy: 0.9536  mean_return: 0.0255
+Episode  2300 | p0 wins:  951  p1 wins: 1063  draws:  286 | actor_loss: -0.0184  critic_loss: 0.0215  entropy: 0.9250  mean_return: 0.0278
+Episode  2400 | p0 wins: 1001  p1 wins: 1102  draws:  297 | actor_loss: -0.0190  critic_loss: 0.0209  entropy: 0.9192  mean_return: 0.0287
+Episode  2500 | p0 wins: 1043  p1 wins: 1147  draws:  310 | actor_loss: -0.0213  critic_loss: 0.0231  entropy: 0.9341  mean_return: 0.0268
+Saved checkpoint → checkers_agent.pt
+Episode  2600 | p0 wins: 1083  p1 wins: 1198  draws:  319 | actor_loss: -0.0178  critic_loss: 0.0217  entropy: 0.9271  mean_return: 0.0285
+Episode  2700 | p0 wins: 1117  p1 wins: 1251  draws:  332 | actor_loss: -0.0184  critic_loss: 0.0192  entropy: 0.9456  mean_return: 0.0258
+Episode  2800 | p0 wins: 1161  p1 wins: 1294  draws:  345 | actor_loss: -0.0178  critic_loss: 0.0213  entropy: 0.9515  mean_return: 0.0266
+Episode  2900 | p0 wins: 1198  p1 wins: 1343  draws:  359 | actor_loss: -0.0170  critic_loss: 0.0208  entropy: 0.9323  mean_return: 0.0271
+Episode  3000 | p0 wins: 1248  p1 wins: 1385  draws:  367 | actor_loss: -0.0229  critic_loss: 0.0224  entropy: 0.9428  mean_return: 0.0271
+Saved checkpoint → checkers_agent.pt
+Episode  3100 | p0 wins: 1289  p1 wins: 1428  draws:  383 | actor_loss: -0.0194  critic_loss: 0.0199  entropy: 0.9597  mean_return: 0.0254
+Episode  3200 | p0 wins: 1332  p1 wins: 1473  draws:  395 | actor_loss: -0.0174  critic_loss: 0.0204  entropy: 0.9414  mean_return: 0.0283
+Episode  3300 | p0 wins: 1369  p1 wins: 1517  draws:  414 | actor_loss: -0.0179  critic_loss: 0.0181  entropy: 0.9713  mean_return: 0.0259
+Episode  3400 | p0 wins: 1411  p1 wins: 1560  draws:  429 | actor_loss: -0.0152  critic_loss: 0.0181  entropy: 0.9561  mean_return: 0.0261
+Episode  3500 | p0 wins: 1460  p1 wins: 1599  draws:  441 | actor_loss: -0.0148  critic_loss: 0.0194  entropy: 0.9259  mean_return: 0.0274
+Saved checkpoint → checkers_agent.pt
+Episode  3600 | p0 wins: 1503  p1 wins: 1641  draws:  456 | actor_loss: -0.0190  critic_loss: 0.0196  entropy: 0.9412  mean_return: 0.0252
+Episode  3700 | p0 wins: 1542  p1 wins: 1690  draws:  468 | actor_loss: -0.0169  critic_loss: 0.0188  entropy: 0.9558  mean_return: 0.0259
+Episode  3800 | p0 wins: 1587  p1 wins: 1728  draws:  485 | actor_loss: -0.0140  critic_loss: 0.0161  entropy: 0.9509  mean_return: 0.0262
+Episode  3900 | p0 wins: 1633  p1 wins: 1771  draws:  496 | actor_loss: -0.0171  critic_loss: 0.0187  entropy: 0.9313  mean_return: 0.0277
+Episode  4000 | p0 wins: 1680  p1 wins: 1809  draws:  511 | actor_loss: -0.0158  critic_loss: 0.0182  entropy: 0.9534  mean_return: 0.0236
+Saved checkpoint → checkers_agent.pt
+Episode  4100 | p0 wins: 1720  p1 wins: 1858  draws:  522 | actor_loss: -0.0203  critic_loss: 0.0201  entropy: 0.9430  mean_return: 0.0276
+Episode  4200 | p0 wins: 1760  p1 wins: 1906  draws:  534 | actor_loss: -0.0177  critic_loss: 0.0178  entropy: 0.9284  mean_return: 0.0264
+Episode  4300 | p0 wins: 1812  p1 wins: 1941  draws:  547 | actor_loss: -0.0159  critic_loss: 0.0198  entropy: 0.9386  mean_return: 0.0267
+Episode  4400 | p0 wins: 1859  p1 wins: 1984  draws:  557 | actor_loss: -0.0174  critic_loss: 0.0204  entropy: 0.9393  mean_return: 0.0272
+Episode  4500 | p0 wins: 1896  p1 wins: 2039  draws:  565 | actor_loss: -0.0161  critic_loss: 0.0172  entropy: 0.9453  mean_return: 0.0267
+Saved checkpoint → checkers_agent.pt
+Episode  4600 | p0 wins: 1937  p1 wins: 2082  draws:  581 | actor_loss: -0.0157  critic_loss: 0.0152  entropy: 0.9613  mean_return: 0.0271
+Episode  4700 | p0 wins: 1978  p1 wins: 2124  draws:  598 | actor_loss: -0.0160  critic_loss: 0.0171  entropy: 0.9652  mean_return: 0.0243
+Episode  4800 | p0 wins: 2021  p1 wins: 2169  draws:  610 | actor_loss: -0.0166  critic_loss: 0.0184  entropy: 0.9466  mean_return: 0.0267
+Episode  4900 | p0 wins: 2063  p1 wins: 2219  draws:  618 | actor_loss: -0.0146  critic_loss: 0.0193  entropy: 0.9330  mean_return: 0.0292
+Episode  5000 | p0 wins: 2104  p1 wins: 2262  draws:  634 | actor_loss: -0.0148  critic_loss: 0.0146  entropy: 0.9636  mean_return: 0.0249
+Saved checkpoint → checkers_agent.pt
+Saved checkpoint → checkers_agent.pt
+
+Training complete.
+Total outcomes — {'player_0': 2104, 'player_1': 2262, 'draw': 634}
+
+==================================================
+SAMPLE GAME — trained agent (greedy) vs itself
+==================================================
+
+  0 1 2 3 4 5
+0 . x . x . x 
+1 x . x . x . 
+2 . . . . . . 
+3 . . . . o . 
+4 . o . o . . 
+5 o . o . o . 
+  Move 1 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . x . x . x 
+1 x . x . . . 
+2 . . . . . x 
+3 . . . . o . 
+4 . o . o . . 
+5 o . o . o . 
+  Move 2 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . x . x . x 
+1 x . x . . . 
+2 . . . . . x 
+3 . . . . o . 
+4 . o . o . o 
+5 o . o . . . 
+  Move 3 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . x . . . x 
+1 x . x . x . 
+2 . . . . . x 
+3 . . . . o . 
+4 . o . o . o 
+5 o . o . . . 
+  Move 4 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . x . . . x 
+1 x . x . x . 
+2 . . . . . x 
+3 o . . . o . 
+4 . . . o . o 
+5 o . o . . . 
+  Move 5 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . x . . . x 
+1 x . . . x . 
+2 . x . . . x 
+3 o . . . o . 
+4 . . . o . o 
+5 o . o . . . 
+  Move 6 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . x . . . x 
+1 x . o . x . 
+2 . . . . . x 
+3 . . . . o . 
+4 . . . o . o 
+5 o . o . . . 
+  Move 7 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . . . x . 
+2 . . . x . x 
+3 . . . . o . 
+4 . . . o . o 
+5 o . o . . . 
+  Move 8 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . o . x . 
+2 . . . . . x 
+3 . . . . . . 
+4 . . . o . o 
+5 o . o . . . 
+  Move 9 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . o . x . 
+2 . . . . . . 
+3 . . . . x . 
+4 . . . o . o 
+5 o . o . . . 
+  Move 10 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . o . x . 
+2 . . . o . . 
+3 . . . . . . 
+4 . . . o . . 
+5 o . o . . . 
+  Move 11 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . o . . . 
+2 . . . . . . 
+3 . . x . . . 
+4 . . . o . . 
+5 o . o . . . 
+  Move 11 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . o . . . 
+2 . . . . . . 
+3 . . . . . . 
+4 . . . . . . 
+5 o . o . X . 
+  Move 12 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . O . . . x 
+1 x . . . . . 
+2 . . . . . . 
+3 . . . . . . 
+4 . . . . . . 
+5 o . o . X . 
+  Move 13 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . O . . . x 
+1 x . . . . . 
+2 . . . . . . 
+3 . . . . . . 
+4 . . . . . X 
+5 o . o . . . 
+  Move 14 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . O . . . 
+2 . . . . . . 
+3 . . . . . . 
+4 . . . . . X 
+5 o . o . . . 
+  Move 15 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . . . . . x 
+1 x . O . . . 
+2 . . . . . . 
+3 . . . . X . 
+4 . . . . . . 
+5 o . o . . . 
+  Move 16 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . O . . . x 
+1 x . . . . . 
+2 . . . . . . 
+3 . . . . X . 
+4 . . . . . . 
+5 o . o . . . 
+  Move 17 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . O . . . x 
+1 x . . . . . 
+2 . . . . . . 
+3 . . . . . . 
+4 . . . X . . 
+5 o . o . . . 
+  Move 18 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . O . . . x 
+1 x . . . . . 
+2 . . . . . . 
+3 . . . . o . 
+4 . . . . . . 
+5 o . . . . . 
+  Move 19 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . O . . . . 
+1 x . . . x . 
+2 . . . . . . 
+3 . . . . o . 
+4 . . . . . . 
+5 o . . . . . 
+  Move 20 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . O . . . . 
+1 x . . . x . 
+2 . . . . . o 
+3 . . . . . . 
+4 . . . . . . 
+5 o . . . . . 
+  Move 21 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . O . . . . 
+1 . . . . x . 
+2 . x . . . o 
+3 . . . . . . 
+4 . . . . . . 
+5 o . . . . . 
+  Move 22 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . O . O . . 
+1 . . . . . . 
+2 . x . . . . 
+3 . . . . . . 
+4 . . . . . . 
+5 o . . . . . 
+  Move 23 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . O . O . . 
+1 . . . . . . 
+2 . . . . . . 
+3 . . x . . . 
+4 . . . . . . 
+5 o . . . . . 
+  Move 24 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . O . . . . 
+1 . . . . O . 
+2 . . . . . . 
+3 . . x . . . 
+4 . . . . . . 
+5 o . . . . . 
+  Move 25 | Next: player_1
+
+
+  0 1 2 3 4 5
+0 . O . . . . 
+1 . . . . O . 
+2 . . . . . . 
+3 . . . . . . 
+4 . x . . . . 
+5 o . . . . . 
+  Move 26 | Next: player_0
+
+
+  0 1 2 3 4 5
+0 . O . . . . 
+1 . . . . O . 
+2 . . . . . . 
+3 . . o . . . 
+4 . . . . . . 
+5 . . . . . . 
+  Move 27 | Next: player_1
+
+Final cumulative rewards: {'player_0': 1.0, 'player_1': -1.0}
