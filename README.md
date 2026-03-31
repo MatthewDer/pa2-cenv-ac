@@ -60,9 +60,6 @@ An episode is truncated when:
 - 20 consecutive turns pass without a capture (no-progress draw rule)
 - 200 total moves are reached
 
-## Version History
-
-- v0: Initial release
 
 ## Usage
 
